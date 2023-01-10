@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1052px) {
+    body {
+        background-color: red;
+    }
+
+    .tag {
+        width: 77%;
+    }
+
+    .input-tag p {
+        left: -30%;
+    }
+
+}
+
+@media screen and (max-width: 936px) {
+    .tag {
+        width: 60%;
+    }
+
+    .input-tag p {
+        left: -22%;
+    }
+}

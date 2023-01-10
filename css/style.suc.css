@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/back6.png);
+    /* background-size: cover; */
+    background-color: darkblue;
+    background-size: 488px;
+    min-height: 709px;
+}
+
+.container {
+    display: flex;
+}
+
+.left-container {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left-container h1 {
+    font-size: 48px;
+}
+
+.left-container h3 {
+
+    font-size: 20px;
+    font-weight: 45;
+}
+
+.box {
+    height: 482px;
+    width: 68%;
+    margin: 57px auto;
+    border-radius: 21px;
+    background-blend-mode: darken;
+    background-color: white;
+}
+
+.login-btn {
+    display: flex;
+    justify-content: center;
+    margin: 38px auto;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 19px;
+    height: 36px;
+    width: 188px;
+    position: relative;
+    top: 17px;
+}
+
+.login-btn a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.login-btn a:hover {
+    color: blue;
+    font-weight: 500;
+    transition: 0.4s ease-in;
+}
+
+.input-tag p {
+
+    position: absolute;
+    left: 188px;
+}
+
+.tag {
+
+    margin: 21px;
+    padding: 0 23px;
+    height: 46px;
+    width: 283px;
+    border-radius: 9px;
+    border: 1px solid black;
+}
+
+.btn {
+    height: 32px;
+    width: 141px;
+    border-radius: 23px;
+    border: none;
+    background-color: blue;
+    color: white;
+    margin-top: 29px;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: darkblue;
+    transition: 0.4s ease-in;
+}
+
+.right-container {
+    background-image: url(../img/back3.jpg);
+    height: 100vh;
+    width: 61vw;
+    background-size: cover;
+    border-radius: 12px 0;
+}
+
+.logo img {
+    width: 179px;
+    margin-top: 35px;
+}
+
+.text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 39px;
+    margin: 11px 0;
+}

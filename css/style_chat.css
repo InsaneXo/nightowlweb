@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/back5.jpg);
+    font-family: 'Roboto', sans-serif;
+    background-size: 375px;
+    max-height: 20vh;
+}
+
+.navbar {
+    height: 68px;
+    width: 100vw;
+    background: skyblue;
+    position: sticky;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar input {
+    height: 39px;
+    width: 31vw;
+    border: none;
+    border-radius: 7px;
+    padding: 0 16px;
+    margin: 0 20px;
+    position: relative;
+}
+
+.search-bar svg {
+    width: 23px;
+    position: absolute;
+    right: 29px;
+    cursor: pointer;
+}
+
+.logo svg {
+
+    width: 158px;
+    margin: 0 10px;
+}
+
+.container-2 {
+    display: flex;
+    height: 91vh;
+    background-size: 436px;
+    margin: 35px 0;
+}
+
+.search-sml {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-sml input {
+    height: 51px;
+    width: 31vw;
+    padding: 0 12px;
+    margin: 12px 7px;
+    border-radius: 7px;
+    border: none;
+    font-size: 11px;
+}
+
+.search-sml svg {
+    width: 26px;
+    position: relative;
+    left: -44px;
+}
+
+.left-container {
+    /* background-color: rgb(53, 150, 235); */
+    width: 30%;
+}
+
+.right-container {
+    /* background-color: rgb(11, 32, 49); */
+    width: 70%;
+    margin-top: 15px;
+}
+
+.box {
+    height: 90vh;
+    margin: 11px auto;
+    border: 1px solid white;
+    width: 29vw;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.user img {
+    width: 60px;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 0;
+    padding: 0 2px;
+    border-bottom: 1px solid #dadada;
+}
+
+.user:hover {
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+.text {
+    position: absolute;
+    left: 92px;
+    font-size: 11px;
+    margin: 8px auto;
+}
+
+.time {
+    font-size: 12px;
+}
+
+.name {
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.name a {
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+}
+
+.text2 {
+    text-align: center;
+    margin-top: 112px;
+}
+
+.add-pati {
+    text-align: end;
+    margin-top: 64px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.add-pati svg {
+    width: 110px;
+}
+
+.box2 {
+    width: 66vw;
+    margin: auto;
+    border-radius: 7px 20px 20px 7px;
+    border: 1px solid white;
+    height: 90vh;
+    background-color: white;
+    margin-top: 72px;
+
+}
+
+.box-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-left h1 {
+    font-size: 46px;
+}
+
+.box-left button {
+    width: 125px;
+    height: 42px;
+    border-radius: 7px;
+    border: none;
+    margin: 14px 3px;
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dadada;
+    height: 68px;
+}
+
+.nav2 img {
+    width: 60px;
+}
+
+.text3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.text1 {
+    font-size: 22px;
+}
+
+.text3 p {
+    font-size: 14px;
+}
+
+.icon {
+    padding: 0px 26px;
+    gap: 11px;
+    display: flex;
+}
+
+
+
+.msg-box {
+    height: 77%;
+
+}
+
+.left {
+    border: 1px solid #dadada;
+    padding: 17px 11px;
+    width: 183px;
+    border-radius: 12px;
+    position: relative;
+    left: 13px;
+    top: 65px;
+}
+
+.right {
+    border: 1px solid #dadada;
+    padding: 17px 11px;
+    width: 13vw;
+    margin: 36vh 49vw;
+    border-radius: 12px;
+
+}
+
+.send-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #dadada;
+    height: 11vh;
+}
+
+.inp-bar input {
+    width: 820px;
+    padding: 0 10px;
+    height: 57px;
+    border-radius: 12px;
+    border: 1px solid #dadada;
+}
+
+.left-icon svg {
+    padding: 0 8px;
+    width: 24px;
+}
+
+.send-btn svg {
+    padding: 0 23px;
+}
+
+.left-icon {
+    cursor: pointer;
+}
+
+.inp-bar input {
+    cursor: pointer;
+    width: 42vw;
+}
+
+.send-btn {
+    cursor: pointer;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    padding: 0 29px;
+}
+
+.logout a {
+    color: white;
+    text-decoration: none;
+}
+
+.logout svg {
+    cursor: pointer;
+}
